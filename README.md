@@ -15,3 +15,8 @@ The dataloader is implemented in `PyTorch` for now and support multi-threading. 
 
 Please refere to the demonstration notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AntoineSimoulin/1B_sentence_embeddings/blob/master/dataset.ipynb)
 
+You can download the data using the python script:
+
+```bash
+python download_data.py --dataset_list=datasets_list.tsv --data_path=PATH_TO_STORE_DATASETS
+```
